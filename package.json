@@ -1,0 +1,23 @@
+{
+    "name"         : "node-red-contrib-mbed-cloud-sdk",
+    "version"      : "0.0.1",
+    "description"  : "A set of notes used to access the full mbed cloud suite",
+    "license"      : "Apache-2.0",
+    "author"       : {
+        "name"     : "Terence Zhang",
+        "email"    : "terence.zhang@arm.com",
+    },
+    "dependencies" : {
+    },
+    "license": "MIT",
+    "repository"   : {
+      "type": "git",
+      "url"        : "https://github.com/tz-arm/node-red-contrib-mbed-cloud-sdk.git",
+    },
+    "node-red"     : {
+        "nodes": {
+            "mbed-cloud-sdk-access": "mbed-cloud-sdk/mbed-cloud-sdk-access.js"
+            "mbed-cloud-sdk-device": "mbed-cloud-sdk/mbed-cloud-sdk-device.js
+        }
+    }
+}
