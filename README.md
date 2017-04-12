@@ -14,4 +14,4 @@ A set of notes used to access the full mbed cloud suite.
 6.reboot node-red
 
 ### Screenshot for a simple veriffication flow
-![image](https://github.com/tz-arm/node-red-contrib-mbed-cloud-sdk/screenshot/screenshot.png)
+![image](https://github.com/tz-arm/node-red-contrib-mbed-cloud-sdk/raw/master/screenshot/screenshot.png)
