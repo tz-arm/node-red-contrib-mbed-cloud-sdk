@@ -13,3 +13,5 @@ A set of notes used to access the full mbed cloud suite.
 5.npm link node-red-contrib-mbed-cloud-sdk
 6.reboot node-red
 
+### Screenshot for a simple veriffication flow
+![image](https://github.com/tz-arm/node-red-contrib-mbed-cloud-sdk/screenshot/screenshot.png)
