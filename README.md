@@ -12,3 +12,4 @@ A set of notes used to access the full mbed cloud suite.
 4.cd ~/.node-red
 5.npm link node-red-contrib-mbed-cloud-sdk
 6.reboot node-red
+
