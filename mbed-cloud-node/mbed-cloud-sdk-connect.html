@@ -1,0 +1,29 @@
+<script type="text/javascript">
+    RED.nodes.registerType('mbed-cloud-connect',{
+        category: 'config',
+        defaults: {
+            name: {value:"mbed cloud connect"},
+        },
+        credentials: {
+            apikey: {type: "text"},
+        },        
+        label: function() {
+            return this.name || "mbed-cloud-connect";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="mbed-cloud-connect">
+    <div class="form-row">
+        <label for="node-config-input-apikey"><i class="icon-tag"></i> API Key</label>
+        <input type="text" id="node-config-input-apikey" placeholder="API Key">
+    </div>   
+    <div class="form-row">
+        <label for="node-config-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-config-input-name" placeholder="Name">
+    </div> 
+</script>
+
+<script type="text/x-red" data-help-name="mbed-cloud-connect">
+    <p>The config node of mbed cloud which is used to create the mbed cloud connection.</p>
+</script>
